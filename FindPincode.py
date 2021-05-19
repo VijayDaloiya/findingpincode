@@ -13,7 +13,7 @@ log=input("enter longitude")
 location = geocoder.reverse((lat, log))
 print(location)
 
-print(location.raw)
+#print(location.raw)
 #for tehsil/city
 print("city :",location.raw['address']['county'])
 #for district 
